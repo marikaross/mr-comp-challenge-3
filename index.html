@@ -19,21 +19,21 @@
       <article class="main-nav">
         <h3 class="nav-bar">Main</h3>
         <ul>
-          <li><img class="nav-image" src="images/home.svg"></i><a href="" class="main-link">HOME</a></li>
-          <li><img class="nav-image" src="images/briefcase.svg"></i><a href="" class="main-link">JOBS</a></li>
-          <li><img class="nav-image" src="images/resumes.svg"></i><a href="" class="main-link">RESUMES</a></li>
-          <li><img class="nav-image" src="images/clipboard.svg"></i><a href="" class="main-link">TASKS</a></li>
-          <li><img class="nav-image" src="images/calendar-1.svg"></i><a href="" class="main-link">CALENDAR</a></li>
+          <li><img class="nav-image" src="images/home.svg" aria-hidden="true"></i><a href="" class="main-link">HOME</a></li>
+          <li><img class="nav-image" src="images/briefcase.svg" aria-hidden="true"></i><a href="" class="main-link">JOBS</a></li>
+          <li><img class="nav-image" src="images/resumes.svg" aria-hidden="true"></i><a href="" class="main-link">RESUMES</a></li>
+          <li><img class="nav-image" src="images/clipboard.svg" aria-hidden="true"></i><a href="" class="main-link">TASKS</a></li>
+          <li><img class="nav-image" src="images/calendar-1.svg" aria-hidden="true"></i><a href="" class="main-link">CALENDAR</a></li>
         </ul>
       </article>
       <article class="admin-nav">
         <h3 class="nav-bar">Admin</h3>
         <ul>
-          <li><img class="nav-image" src="images/users.svg"></i><a href="" class="admin-link">USERS</a></li>
-          <li><img class="nav-image" src="images/location-pin.svg"></i><a href="" class="admin-link">LOCATIONS</a></li>
-          <li><img class="nav-image" src="images/workflows.svg"></i><a href="" class="admin-link">WORKFLOWS</a></li>
-          <li><img class="nav-image" src="images/resumes.svg"></i><a href="" class="admin-link">JOB BOARDS</a></li>
-          <li><img class="nav-image" src="images/social.svg"></i><a href="" class="admin-link">SOCIAL</a></li>
+          <li><img class="nav-image" src="images/users.svg" aria-hidden="true"></i><a href="" class="admin-link">USERS</a></li>
+          <li><img class="nav-image" src="images/location-pin.svg" aria-hidden="true"></i><a href="" class="admin-link">LOCATIONS</a></li>
+          <li><img class="nav-image" src="images/workflows.svg" aria-hidden="true"></i><a href="" class="admin-link">WORKFLOWS</a></li>
+          <li><img class="nav-image" src="images/resumes.svg" aria-hidden="true"></i><a href="" class="admin-link">JOB BOARDS</a></li>
+          <li><img class="nav-image" src="images/social.svg" aria-hidden="true"></i><a href="" class="admin-link">SOCIAL</a></li>
         </ul>
       </article>
       <article class="categories-nav">
@@ -48,10 +48,10 @@
     </nav>
     <section class="main">
       <section class="search">
-        <button class="search-button hamburger"></button>
+        <button class="search-button hamburger" aria-expanded="true"></button>
         <input type="text" name="">
-        <button class="search-button add-user"></button>
-        <button class="search-button calendar"></button>
+        <button aria-label="add-user" class="search-button add-user"></button>
+        <button aria-label="add-event-calendar" class="search-button calendar"></button>
         <button class="search-button grid"></button>
       </section>
       <section class="job-post">
@@ -63,9 +63,9 @@
           </article>
           <article class="job-description-buttons">
             <button class="open-button"><img src="images/circle-16.png" class="open-dot">OPEN</button>
-            <button class="circle bookmark"></button>
-            <button class="circle pencil"></button>
-            <button class="circle trash"></button>
+            <button aria-label="bookmark-job" class="circle bookmark"></button>
+            <button aria-label="edit" class="circle pencil"></button>
+            <button aria-label="discard" class="circle trash"></button>
           </article>
         </article>
         <article class="job-description-links">
@@ -79,7 +79,7 @@
         </article>
         <article class="graph-portion">
           <div class="graph">
-            <svg width="100%" viewBox="0 0 42 42" class="donut">
+            <svg aria-label="Graph-number-of-resumes-3145" width="100%" viewBox="0 0 42 42" class="donut">
               <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#eef2f6"></circle>
               <circle class="donut-ring" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#dbe4ea" stroke-width="3.5"></circle>
               <circle class="donut-segment" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#47bac1" stroke-width="3.5" stroke-dasharray="85 15" stroke-dashoffset="85" stroke-linecap="round"></circle>
@@ -94,7 +94,7 @@
             </svg>
           </div>
           <div class="graph">
-            <svg width="100%" viewBox="0 0 42 42" class="donut">
+            <svg aria-label="Graph-number-of-interviews-1546" width="100%" viewBox="0 0 42 42" class="donut">
               <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#eef2f6" ></circle>
               <circle class="donut-ring" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#dbe4ea" stroke-width="3.5"></circle>
               <circle class="donut-segment" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#47a6e9" stroke-width="3.5" stroke-dasharray="70 35" stroke-dashoffset="5" stroke-linecap="round"></circle>
@@ -109,7 +109,7 @@
             </svg>
           </div>
           <div class="graph">
-            <svg width="100%" viewBox="0 0 42 42" class="donut">
+            <svg aria-label="graph-number-of-forwards-912" width="100%" viewBox="0 0 42 42" class="donut">
               <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#eef2f6"></circle>
               <circle class="donut-ring" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#dbe4ea" stroke-width="3.5"></circle>
               <circle class="donut-segment" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#a46dab" stroke-width="3.5" stroke-dasharray="20 51" stroke-dashoffset="45" stroke-linecap="round"></circle>
@@ -131,13 +131,13 @@
         </article>
         <div class="page-break">
           <hr>
-          <button class="circle-mid-page"><img class="arrow" src="images/arrow-down.svg"></button>
+          <button aria-label="show-or-hide-graphs" aria-expanded="true" class="circle-mid-page"><img class="arrow" src="images/arrow-down.svg"></button>
           <hr>
         </div>
       </section>
       <section class="lower-portion">
         <article class="table">
-          <table>
+          <table aria-label="table-of-job-description">
             <tr>
               <th class="header label">JOB DESCRIPTION</th>
               <th class="header"><button class="header-button"><img class="white-pencil" src="images/white-pencil.svg">EDIT</button></th>
