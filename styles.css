@@ -8,7 +8,7 @@ body {
 .main {
   display: inline;
   position: absolute;
-  width: 85%;
+  width: 83%;
 }
 
 button:hover {
@@ -19,7 +19,7 @@ button:hover {
 nav {
   background-color: #374050;
   display: inline-block;
-  width: 15%;
+  width: 17%;
   height: 100vh;
 }
 
@@ -97,6 +97,12 @@ li:hover {
   color: #a2acbd;
   margin: 7px 20px; 
   text-decoration: none;
+}
+
+.checkBox {
+  margin: 0;
+  width: 7%;
+  vertical-align: middle;
 }
  
  /*-----------Search Section-----------*/
@@ -213,7 +219,8 @@ h4 {
   border: solid .1rem #dbe4ea;
   height: 2.5rem;
   margin: 1rem 1rem .5rem 0;
-  width: 2.5rem; }
+  width: 2.5rem; 
+}
 
 .open-button {
   border-radius: 1.5rem;
@@ -365,7 +372,7 @@ table {
 
 td {
   font-size: .9rem;
-  padding: 1.5rem 2rem;
+  padding: 1.6rem 2rem;
 }
 
 .lower-portion {
@@ -466,15 +473,12 @@ margin: .95rem .5rem .95rem .5rem;
     margin: auto;
     position: relative;
   }
-
-
 }
 
 @media screen and (max-width: 891px) {
   .nav-links {
     font-size: .75rem;
   }
-
 }
 
 @media screen and (max-width: 811px) {
@@ -617,7 +621,6 @@ margin: .95rem .5rem .95rem .5rem;
   .social {
     flex-direction: row;
   }
-
 }
 
 @media screen and (max-width: 585px) {
@@ -626,7 +629,6 @@ margin: .95rem .5rem .95rem .5rem;
   .graph-portion {
     display: none;
   }
-}
 
   td,
   .header {
@@ -643,12 +645,12 @@ margin: .95rem .5rem .95rem .5rem;
     display: none;
   }
 
-/*  .social-button {
+  .social-button {
     border-radius: 50%;
     height: 2rem;
     margin: .25rem 2rem .5rem 3rem;
     width: 2rem;
-  }*/
+  }
 
   .social {
     display: none;
@@ -668,7 +670,5 @@ margin: .95rem .5rem .95rem .5rem;
     margin: auto;
     padding: 0;
   }
-
-
 }
  
