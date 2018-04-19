@@ -42,14 +42,14 @@
           <li><input id="checkBox" class="checkBox" type="checkbox"><a href="" class="categories-link">Administrative</a></li>
           <li><input id="checkBox" class="checkBox" type="checkbox"><a href="" class="categories-link">Design</a></li>
           <li><input id="checkBox" class="checkBox" type="checkbox"><a href="" class="categories-link">Executive</a></li>
-          <li><input id="checkBox" class="checkBox" type="checkbox"><a href="" class="categories-link">Human Resources</a></li>
+          <li><input id="checkBox" class="checkBox" type="checkbox"><a href="" class="categories-link">HR</a></li>
         </ul>
       </article>
     </nav>
     <section class="main">
       <section class="search">
         <button class="search-button hamburger" aria-expanded="true"></button>
-        <input type="text" name="">
+        <input type="text" name="" placeholder="Search for a job, task, or resume">
         <button aria-label="add-user" class="search-button add-user"></button>
         <button aria-label="add-event-calendar" class="search-button calendar"></button>
         <button class="search-button grid"></button>
@@ -69,137 +69,142 @@
           </article>
         </article>
         <article class="job-description-links">
-          <a href="" class="nav-links">SUMMARY</a>
-          <a href="" class="nav-links">APPLICANTS</a>
-          <a href="" class="nav-links">JOB BOARD</a>
-          <a href="" class="nav-links">INTERVIEWS</a>
-          <a href="" class="nav-links">ACTIVITY</a>
-          <a href="" class="nav-links">BROADCAST</a>
-          <a href="" class="nav-links">NOTIFICATIONS</a>
+          <a href='' class=" nav-links hidden-nav-link">Click Here for More Info</a>
+          <a href="" class="nav-links show-link">SUMMARY</a>
+          <a href="" class="nav-links show-link">APPLICANTS</a>
+          <a href="" class="nav-links show-link">JOB BOARD</a>
+          <a href="" class="nav-links show-link">INTERVIEWS</a>
+          <a href="" class="nav-links show-link">ACTIVITY</a>
+          <a href="" class="nav-links show-link">BROADCAST</a>
+          <a href="" class="nav-links show-link">NOTIFICATIONS</a>
         </article>
         <article class="graph-portion">
-          <div class="graph">
-            <svg aria-label="Graph-number-of-resumes-3145" width="100%" viewBox="0 0 42 42" class="donut">
-              <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#eef2f6"></circle>
-              <circle class="donut-ring" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#dbe4ea" stroke-width="3.5"></circle>
-              <circle class="donut-segment" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#47bac1" stroke-width="3.5" stroke-dasharray="85 15" stroke-dashoffset="85" stroke-linecap="round"></circle>
-              <g class="chart-text">
-                <text x="50%" y="50%" class="chart-number">
-                3154
-                </text>
-                <text x="50%" y="50%" class="chart-label">
-                RESUMES
-                </text>
-              </g>
-            </svg>
-          </div>
-          <div class="graph">
-            <svg aria-label="Graph-number-of-interviews-1546" width="100%" viewBox="0 0 42 42" class="donut">
-              <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#eef2f6" ></circle>
-              <circle class="donut-ring" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#dbe4ea" stroke-width="3.5"></circle>
-              <circle class="donut-segment" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#47a6e9" stroke-width="3.5" stroke-dasharray="70 35" stroke-dashoffset="5" stroke-linecap="round"></circle>
-              <g class="chart-text">
-                <text x="50%" y="50%" class="chart-number">
-                1546
-                </text>
-                <text x="50%" y="50%" class="chart-label">
-                INTERVIEWS
-                </text>
-              </g>
-            </svg>
-          </div>
-          <div class="graph">
-            <svg aria-label="graph-number-of-forwards-912" width="100%" viewBox="0 0 42 42" class="donut">
-              <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#eef2f6"></circle>
-              <circle class="donut-ring" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#dbe4ea" stroke-width="3.5"></circle>
-              <circle class="donut-segment" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#a46dab" stroke-width="3.5" stroke-dasharray="20 51" stroke-dashoffset="45" stroke-linecap="round"></circle>
-              <g class="chart-text">
-                <text x="50%" y="50%" class="chart-number">
-                912
-                </text>
-                <text x="50%" y="50%" class="chart-label">
-                FORWARDS
-                </text>
-              </g>
-            </svg>
-          </div>
+          <article class="circle-graph">
+            <article class="just-circle-graphs">
+              <div class="circlegraph">
+                <svg aria-label="Graph-number-of-resumes-3145" width="100%" viewBox="0 0 42 42" class="donut">
+                  <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#eef2f6"></circle>
+                  <circle class="donut-ring" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#dbe4ea" stroke-width="3.5"></circle>
+                  <circle class="donut-segment" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#47bac1" stroke-width="3.5" stroke-dasharray="85 15" stroke-dashoffset="85" stroke-linecap="round"></circle>
+                  <g class="chart-text">
+                    <text x="50%" y="50%" class="chart-number">
+                    3154
+                    </text>
+                    <text x="50%" y="50%" class="chart-label">
+                    RESUMES
+                    </text>
+                  </g>
+                </svg>
+              </div>
+              <div class="circlegraph">
+                <svg aria-label="Graph-number-of-interviews-1546" width="100%" viewBox="0 0 42 42" class="donut">
+                  <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#eef2f6" ></circle>
+                  <circle class="donut-ring" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#dbe4ea" stroke-width="3.5"></circle>
+                  <circle class="donut-segment" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#47a6e9" stroke-width="3.5" stroke-dasharray="70 35" stroke-dashoffset="5" stroke-linecap="round"></circle>
+                  <g class="chart-text">
+                    <text x="50%" y="50%" class="chart-number">
+                    1546
+                    </text>
+                    <text x="50%" y="50%" class="chart-label">
+                    INTERVIEWS
+                    </text>
+                  </g>
+                </svg>
+              </div>
+              <div class="circlegraph">
+                <svg aria-label="graph-number-of-forwards-912" width="100%" viewBox="0 0 42 42" class="donut">
+                  <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#eef2f6"></circle>
+                  <circle class="donut-ring" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#dbe4ea" stroke-width="3.5"></circle>
+                  <circle class="donut-segment" cx="21" cy="21" r="15.19549430918954" fill="transparent" stroke="#a46dab" stroke-width="3.5" stroke-dasharray="20 51" stroke-dashoffset="45" stroke-linecap="round"></circle>
+                  <g class="chart-text">
+                    <text x="50%" y="50%" class="chart-number">
+                    912
+                    </text>
+                    <text x="50%" y="50%" class="chart-label">
+                    FORWARDS
+                    </text>
+                  </g>
+                </svg>
+              </div>
+            </article>
+            <button class="graph-button graph-button-1">TOTALS - out of 5231 views</button>
+          </article>
+          <article class="bar-graph-section">
           <img class="graph bar-graph" src="images/bargraph.png" alt="bar graph of site traffic">
-        </article>
-        <article class="button-portion">
-          <button class="graph-button graph-button-1">TOTALS - out of 5231 views</button>
           <button class="graph-button">APPLICANTS/DAY</button>
-        </article>
-        <div class="page-break">
-          <hr>
-          <button aria-label="show-or-hide-graphs" aria-expanded="true" class="circle-mid-page"><img class="arrow" src="images/arrow-down.svg"></button>
-          <hr>
-        </div>
-      </section>
-      <section class="lower-portion">
-        <article class="table">
-          <table aria-label="table-of-job-description">
-            <tr>
-              <th class="header label">JOB DESCRIPTION</th>
-              <th class="header"><button class="header-button"><img class="white-pencil" src="images/white-pencil.svg">EDIT</button></th>
-            </tr>
-            <tr>
-              <td class="label">POSITION TITLE</td>
-              <td>Customer Service Representative</td>
-            </tr>
-            <tr>
-              <td class="label">LOCATION</td>
-              <td>San Francisco, CA</td>
-            </tr>
-            <tr>
-              <td class="label">EMPLOYMENT TYPE</td>
-              <td>Full Time</td>
-            </tr>
-            <tr>
-              <td class="label">EXPERIENCE</td>
-              <td>Mid-level</td>
-            </tr>
-            <tr>
-              <td class="label">STATUS</td>
-              <td>Open</td>
-            </tr>
-            <tr>
-              <td class="label">DESCRIPTION</td>
-              <td>I shredded your linens for you. Claw at curtains stretch and yawn nibble on tuna ignore human bite human hand licks paws purr while eating mark territory, so cats are fats i like to pets them they like to meow back. Spit up on light gray carpet instead of adjacent linoleum. Cat mojo groom forever, stretch tongue and leave it slightly out, blep so chill on the couch table my left donut is missing.</td>
-            </tr>
-            <tr>
-              <td class="label">HIRING LEAD</td>
-              <td><img class="hiring-manager-pic" src="images/grumpy-cat.jpg">Grumpy Cat</td>
-            </tr>
-            <tr>
-              <td class="label">APPROVED SALARY</td>
-              <td>$58,000</td>
-            </tr>
-          </table>
-        </article>
-        <article class="social-media">
-          <button class="facebook social-button"> <img class="social-image" src="images/facebook.svg"><h4 class="social-button-text">Post to Facebook</h4></button>
-          <button class="twitter social-button"> <img class="social-image" src="images/twitter.svg"><h4 class="social-button-text">Tweet this Job</h4></button>
-          <button class="linkedin social-button"> <img class="social-image" src="images/linkedin.svg"><h4 class="social-button-text">Post to LinkedIn</h4></button>
-          <article class="social-media share">
-            <h3 class="social"><img class="open-dot" src="images/globe.svg">Link to this job</h3>
-            <p>Tuxedo cats always looking dapper run up and down stairs cough hairball on conveniently placed pants so slap owner's face at 5am.</p>
-            <input class="link-to-job link-input" type="text" name="">
-            <button class="link-button">COPY</button>
-          </article>
-          <article class="social-media share">
-            <h3 class="social"><img class="open-dot" src="images/widget.svg">Use the Button Widget</h3>
-            <p>
-              Kitty loves pigs spit up on light gray carpet instead of adjacent linoleum.
-            </p>
-            <input class="link-to-job link-input" type="text" name="">
-            <button class="link-button">COPY</button>
-          </article>
-          <article class="social-media share">
-            <h3 class="social"><img class="open-dot" src="images/paper-airplane.svg">Upload Resume</h3>
-            <p>Snook leopard danio muskellunge prowfish queen triggerfish turbot. </p>
-            <input type="email" name="Email" placeholder="grumpycat@gmail.com" class="email-input">
           </article>
         </article>
-      </section>
-    </body>
-  </html>
+      <div class="page-break">
+        <hr>
+        <button aria-label="show-or-hide-graphs" aria-expanded="true" class="circle-mid-page"><img class="arrow" src="images/arrow-down.svg"></button>
+        <hr>
+      </div>
+    </section>
+    <section class="lower-portion">
+      <article class="table">
+        <table aria-label="table-of-job-description">
+          <tr>
+            <td class="header label">JOB DESCRIPTION</td>
+            <td class="header"><button class="header-button"><img class="white-pencil" src="images/white-pencil.svg">EDIT</button></td>
+          </tr>
+          <tr>
+            <td class="label">POSITION TITLE</td>
+            <td>Customer Service Representative</td>
+          </tr>
+          <tr>
+            <td class="label">LOCATION</td>
+            <td>San Francisco, CA</td>
+          </tr>
+          <tr>
+            <td class="label">EMPLOYMENT TYPE</td>
+            <td>Full Time</td>
+          </tr>
+          <tr>
+            <td class="label">EXPERIENCE</td>
+            <td>Mid-level</td>
+          </tr>
+          <tr>
+            <td class="label">STATUS</td>
+            <td>Open</td>
+          </tr>
+          <tr>
+            <td class="label">DESCRIPTION</td>
+            <td>I shredded your linens for you. Claw at curtains stretch and yawn nibble on tuna ignore human bite human hand licks paws purr while eating mark territory, so cats are fats i like to pets them they like to meow back. Spit up on light gray carpet instead of adjacent linoleum. Cat mojo groom forever, stretch tongue and leave it slightly out, blep so chill on the couch table my left donut is missing.</td>
+          </tr>
+          <tr>
+            <td class="label">HIRING LEAD</td>
+            <td><img class="hiring-manager-pic" src="images/grumpy-cat.jpg">Grumpy Cat</td>
+          </tr>
+          <tr>
+            <td class="label">APPROVED SALARY</td>
+            <td>$58,000</td>
+          </tr>
+        </table>
+      </article>
+      <article class="social-media">
+        <button class="facebook social-button"> <img class="social-image" src="images/facebook.svg">Post to Facebook</button>
+        <button class="twitter social-button"> <img class="social-image" src="images/twitter.svg">Tweet this Job</button>
+        <button class="linkedin social-button"> <img class="social-image" src="images/linkedin.svg">Post to LinkedIn</button>
+        <article class="social-media share">
+          <h3 class="social"><img class="open-dot" src="images/globe.svg">Link to this job</h3>
+          <p>Tuxedo cats always looking dapper run up and down stairs cough hairball on conveniently placed pants so slap owner's face at 5am.</p>
+          <input class="link-to-job link-input" type="text" name="" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit">
+          <button class="link-button">COPY</button>
+        </article>
+        <article class="social-media share">
+          <h3 class="social"><img class="open-dot" src="images/widget.svg">Use the Button Widget</h3>
+          <p>
+            Kitty loves pigs spit up on light gray carpet instead of adjacent linoleum.
+          </p>
+          <input class="link-to-job link-input" type="text" name="" placeholder="https://ifttt.com/do">
+          <button class="link-button">COPY</button>
+        </article>
+        <article class="social-media share">
+          <h3 class="social"><img class="open-dot" src="images/paper-airplane.svg">Upload Resume</h3>
+          <p>Snook leopard danio muskellunge prowfish queen triggerfish turbot. </p>
+          <input type="email" name="Email" placeholder="grumpycat@gmail.com" class="email-input">
+        </article>
+      </article>
+    </section>
+  </body>
+</html>
